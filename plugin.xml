@@ -19,7 +19,7 @@
     <hook type="before_compile" src="scripts/iosNSAppTransportSecurity.js" />
 
     <platform name="android">
-        <framework src="olli.gradle" custom="true" type="gradleReference"/>
+        
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:name="com.google.android.gms.ads.AdActivity" android:noHistory="true" />
